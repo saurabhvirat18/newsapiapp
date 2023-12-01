@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  display:grid;
+  grid-template-columns:repeat(3);
+}
+
+.search-box{
+  
+  margin-top:20px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.search-input{
+  border:2px solid grey;
+  height:48px;
+  width:500px;
+  border-radius: 25px;
+  padding:8px 60px 8px 25px;
+}
+
+.news-container{
+  margin-top:40px;
+}
+
+.arrow-image{
+  height:46px;
+  width:55px;
+  padding:8px;
+  position:absolute;
+  top:21px;
+  right:400px;
+  border-radius:25px;
+  background-color: white;
+  cursor:pointer;
+}
+
+.input-div{
+  position:relative;
+}
+
+.foot-adj{
+  margin:5px;
+  padding:10px;  
+}
+
+.foot-newsapi{
+  margin-bottom: 10px;
+}
+
+.foot-adje{
+  margin-bottom:10px;
+}
+
+.foot-adjec{
+  margin-bottom:10px;
+}
+
+.foot{
+  cursor:pointer;
+  margin-top:10px; 
+}
+
+.foot:hover{
+  color:red;
+  background-color:black;
+}
+
+.navbar-color:hover{
+  background-color:black;
+  margin:5px 2px 2px 2px;
+  padding:5px 2px 2px 2px; 
+}
