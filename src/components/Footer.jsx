@@ -18,7 +18,7 @@ const Footer = () => {
   <div className="container font-bold">
     <b className="foot-adje">COMPANY</b>
     <h6 className="container-fluid foot"style={{color:"grey"}} >Privacy Policy</h6>
-    <h6 className="container-fluid foot"style={{color:"grey"}} ></h6>
+    <h6 className="container-fluid foot"style={{color:"grey"}} >Rules & Conditions </h6>
     <h6 className="container-fluid foot"style={{color:"grey"}} >Terms of Service</h6>      
   </div>
   
